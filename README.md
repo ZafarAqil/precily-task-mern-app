@@ -122,3 +122,29 @@ axios(config)
 
 - gettasks: 460 ms - 480 ms
 - getcount: 460 ms - 480 ms
+
+## MongoDB Database Collection is deployed on AWS Mumbai cluster
+
+### Counter Collection Example:
+
+```json
+{
+	"_id": { "$oid": "6038b14ad315650004b39226" },
+	"saveApiHitCount": 5,
+	"updateApiHitCount": 4,
+	"__v": 0
+}
+```
+
+### Task Collection Example:
+
+```json
+{"_id":{"$oid":"6038b159d315650004b39227"},"data":"zafar-updated-again","__v":0}
+{"_id":{"$oid":"6038b165d315650004b39228"},"data":"John Doe","__v":0}
+{"_id":{"$oid":"6038c5b7d315650004b39229"},"data":"Hello Precily","__v":0}
+{"_id":{"$oid":"6038c5c9d315650004b3922a"},"data":"Task 1 Updated Once","__v":0}
+{"_id":{"$oid":"6038c5cdd315650004b3922b"},"data":"Task 2","__v":0}
+
+```
+
+---
