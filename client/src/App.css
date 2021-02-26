@@ -1,0 +1,65 @@
+.task{
+	padding: 1rem;
+	margin: 1rem 0;
+	border-radius: 8px;    
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+	transition: all .1s ease-in-out;
+}
+
+.task:hover{
+	background-color: #eee;
+	cursor: pointer;
+}
+
+.form{
+	padding: 1rem 0;
+}
+
+.formControl label{
+	display: block;
+	margin-bottom: .7rem;
+}
+
+.formControl .formInput{
+	padding: 1rem 1rem;
+	margin-bottom: 1rem;
+	border-radius: 8px;
+	border: none;
+	background-color: #eee;
+	outline: none;
+	font-size: 16px;
+	width: 80%;
+}
+
+.btn{
+	padding: 1rem 1.6rem;
+	border: none;
+	border-radius: 8px;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn:first-child{
+	margin: .5rem 1rem .5rem 0;
+}
+
+.btnAction{
+	background-color: #011f32;
+	color: white
+}
+
+.count{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+@media (min-width: 768px) {
+	.App {
+		display: flex;
+		width: 100%;
+	}
+}

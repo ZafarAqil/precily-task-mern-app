@@ -1,0 +1,19 @@
+.resize {
+	border: 2px dashed #011f32;
+	border-radius: 8px;
+	padding: 20px;
+	resize: both;
+	overflow: hidden auto;
+	margin: 1rem;
+}
+
+@media (min-width: 768px) {
+	.window1 {
+		width: 50%;
+		height: 300px;
+	}
+	.window2 {
+		width: 50%;
+		height: 300px;
+	}
+}
